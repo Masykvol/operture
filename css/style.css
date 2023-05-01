@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  height: 90px;
+  width: 100%;
+  background-color: #181818; }
+  header .header-section {
+    display: flex;
+    justify-content: space-around; }
+    header .header-section .logo-section {
+      margin-top: 30px; }
+    header .header-section .header-section-menu {
+      display: flex; }
+    header .header-section .header-section-nav .header-section-ul {
+      display: flex;
+      margin-top: 35px; }
+      header .header-section .header-section-nav .header-section-ul .header-section-li {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        margin-right: 56px;
+        cursor: pointer;
+        list-style-type: none;
+        color: #FFFFFF; }
+      header .header-section .header-section-nav .header-section-ul .header-section-li-a {
+        text-decoration: none;
+        color: #FFFFFF; }
+    header .header-section .header-section-button {
+      margin-top: 24px; }
+      header .header-section .header-section-button .header-btn {
+        background: #FFFFFF;
+        border-radius: 14px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        height: 42px;
+        width: 152px;
+        cursor: pointer;
+        /* identical to box height, or 125% */
+        letter-spacing: 0.4px;
+        color: #000000;
+        border: none; }
+
+main .section-main-Aperture-Studios {
+  background-image: url(../img/IMAGE.jpg);
+  height: 716px; }
+  main .section-main-Aperture-Studios .main-Aperture-Studios-info {
+    padding-top: 466px; }
+    main .section-main-Aperture-Studios .main-Aperture-Studios-info .Studios-info-p-one {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      margin-bottom: 1px;
+      /* identical to box height, or 143% */
+      text-align: center;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #C0C0C0; }
+    main .section-main-Aperture-Studios .main-Aperture-Studios-info .Studios-info-h1 {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 54px;
+      line-height: 59px;
+      /* identical to box height, or 110% */
+      margin: 0;
+      margin-bottom: 18px;
+      text-align: center;
+      color: #FFFFFF; }
+    main .section-main-Aperture-Studios .main-Aperture-Studios-info .Studios-info-p-two {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      /* or 143% */
+      text-align: center;
+      margin: 0;
+      color: #C0C0C0; }
+  main .section-main-Aperture-Studios .Aperture-Studios-vector {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 14px;
+    margin-right: 10px; }
+    main .section-main-Aperture-Studios .Aperture-Studios-vector .Aperture-Studios-vector-img {
+      margin-right: 16px; }
+
+/*# sourceMappingURL=style.css.map */
